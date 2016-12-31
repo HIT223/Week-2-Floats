@@ -55,32 +55,5 @@ Third item
 First section floats
 ------------*/
 .floats--123 .floats__item{
-	float: left;
-}
-
-/*----------
-132 section floats
-------------*/
-.floats--132 .floats__item{
-	float: left;
-}
-.floats--132 .floats__item:nth-child(2){
-	float: right;
-}
-
-/*----------
-321 section floats
-------------*/
-.floats--321 .floats__item{
-	float: right;
-}
-
-/*----------
-231 section floats
-------------*/
-.floats--231 .floats__item{
-	float: right;
-}
-.floats--231 .floats__item:nth-child(2){
-	float: left;
+	/* todo: add float value to achieve the order: 123; */
 }
