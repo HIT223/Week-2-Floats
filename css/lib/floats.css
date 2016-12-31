@@ -85,3 +85,39 @@ First section floats
 .floats--231 .floats__item:nth-child(2){
 	float: left;
 }
+
+/*-----------------
+Bonus section
+-----------------*/
+
+/*----312----*/
+.floats--312{
+	position: relative;
+}
+.floats--312 .floats__item{
+	float: left;
+}
+.floats--312 .floats__item:nth-child(1){
+	margin-left: 33.33%; /* Make space for #3*/
+}
+.floats--312 .floats__item:nth-child(3){
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/*---213---*/
+.floats--213{
+	position: relative;
+}
+.floats--213 .floats__item{
+	float: right;
+}
+.floats--213 .floats__item:nth-child(1){
+	margin-right: 33.33%; /* Make space for #3*/
+}
+.floats--213 .floats__item:nth-child(3){
+	position: absolute;
+	top: 0;
+	right: 0;
+}
