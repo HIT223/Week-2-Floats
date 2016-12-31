@@ -1,0 +1,59 @@
+/*
+	TODO: add float values to achieve the following order of divs
+		- 1,2,3
+		- 1,3,2
+		- 3,2,1
+		- 2,3,1
+	
+	Tip: You will need to use a mixture of left and right float values.
+	Tip: You will notice the background colour disappears once we float items, you will need to clear child floats, in most cases the easiest way to do this is by applying "overflow: hidden;" to the parent (.floats)
+*/
+
+.floats{
+	background-color: #CFD8DC;
+}
+
+/*------------------------------
+Styles to make the divs viewable
+--------------------------------*/
+.floats__item{
+	background-color: #FF5722;
+	height: 45px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	line-height: 45px;
+	width: 33.33%;
+}
+.floats__item::before{
+	content: "1";
+	font-size: 40px;
+	font-weight: bold;
+}
+
+/*----------
+Second item
+------------*/
+.floats__item:nth-child(2){
+	background-color: #689F38;
+}
+.floats__item:nth-child(2)::before{
+	content: "2";
+}
+
+/*----------
+Third item
+------------*/
+.floats__item:nth-child(3){
+	background-color: #0288D1;
+}
+.floats__item:nth-child(3)::before{
+	content: "3";
+}
+
+/*----------
+First section floats
+------------*/
+.floats--123 .floats__item{
+	/* todo: add float value to achieve the order: 123; */
+}

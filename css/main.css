@@ -1,0 +1,17 @@
+/*
+	Vendor imports (libs etc)
+*/
+@import 'vendor/normalize.css';
+@import 'vendor/browserupgrade.css';
+
+/*
+	Our imports
+*/
+@import 'lib/floats.css';
+
+.container{
+	max-width: 1180px;
+	padding-left: 24px;
+	padding-right: 24px;
+	margin: 0 auto;
+}
