@@ -4,20 +4,22 @@
 		- 1,3,2
 		- 3,2,1
 		- 2,3,1
-	
+
 	Tip: You will need to use a mixture of left and right float values.
 	Tip: You will notice the background colour disappears once we float items, you will need to clear child floats, in most cases the easiest way to do this is by applying "overflow: hidden;" to the parent (.floats)
 */
 
-.floats{
+.floats {
 	background-color: #CFD8DC;
 	overflow: hidden;
 }
 
+
 /*------------------------------
 Styles to make the divs viewable
 --------------------------------*/
-.floats__item{
+
+.floats__item {
 	background-color: #FF5722;
 	height: 45px;
 	margin-top: 15px;
@@ -26,97 +28,127 @@ Styles to make the divs viewable
 	line-height: 45px;
 	width: 33.33%;
 }
-.floats__item::before{
+
+.floats__item::before {
 	content: "1";
 	font-size: 40px;
 	font-weight: bold;
 }
 
+
 /*----------
 Second item
 ------------*/
-.floats__item:nth-child(2){
+
+.floats__item:nth-child(2) {
 	background-color: #689F38;
 }
-.floats__item:nth-child(2)::before{
+
+.floats__item:nth-child(2)::before {
 	content: "2";
 }
+
 
 /*----------
 Third item
 ------------*/
-.floats__item:nth-child(3){
+
+.floats__item:nth-child(3) {
 	background-color: #0288D1;
 }
-.floats__item:nth-child(3)::before{
+
+.floats__item:nth-child(3)::before {
 	content: "3";
 }
+
 
 /*----------
 First section floats
 ------------*/
-.floats--123 .floats__item{
+
+.floats--123 .floats__item {
 	float: left;
 }
+
 
 /*----------
 132 section floats
 ------------*/
-.floats--132 .floats__item{
+
+.floats--132 .floats__item {
 	float: left;
 }
-.floats--132 .floats__item:nth-child(2){
+
+.floats--132 .floats__item:nth-child(2) {
 	float: right;
 }
+
 
 /*----------
 321 section floats
 ------------*/
-.floats--321 .floats__item{
+
+.floats--321 .floats__item {
 	float: right;
 }
+
 
 /*----------
 231 section floats
 ------------*/
-.floats--231 .floats__item{
+
+.floats--231 .floats__item {
 	float: right;
 }
-.floats--231 .floats__item:nth-child(2){
+
+.floats--231 .floats__item:nth-child(2) {
 	float: left;
 }
+
 
 /*-----------------
 Bonus section
 -----------------*/
 
+
 /*----312----*/
-.floats--312{
+
+.floats--312 {
 	position: relative;
 }
-.floats--312 .floats__item{
+
+.floats--312 .floats__item {
 	float: left;
 }
-.floats--312 .floats__item:nth-child(1){
-	margin-left: 33.33%; /* Make space for #3*/
+
+.floats--312 .floats__item:nth-child(1) {
+	/* Make space for #3*/
+	margin-left: 33.33%;
 }
-.floats--312 .floats__item:nth-child(3){
+
+.floats--312 .floats__item:nth-child(3) {
 	position: absolute;
 	top: 0;
 	left: 0;
 }
 
+
 /*---213---*/
-.floats--213{
+
+.floats--213 {
 	position: relative;
 }
-.floats--213 .floats__item{
+
+.floats--213 .floats__item {
 	float: right;
 }
-.floats--213 .floats__item:nth-child(1){
-	margin-right: 33.33%; /* Make space for #3*/
+
+.floats--213 .floats__item:nth-child(1) {
+	/* Make space for #3*/
+	margin-right: 33.33%;
 }
-.floats--213 .floats__item:nth-child(3){
+
+.floats--213 .floats__item:nth-child(3) {
 	position: absolute;
 	top: 0;
 	right: 0;
