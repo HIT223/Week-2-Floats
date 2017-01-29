@@ -10,8 +10,8 @@
 */
 
 .floats {
-	background-color: #CFD8DC;
-	overflow: hidden;
+  background-color: #CFD8DC;
+  overflow: hidden;
 }
 
 
@@ -20,19 +20,19 @@ Styles to make the divs viewable
 --------------------------------*/
 
 .floats__item {
-	background-color: #FF5722;
-	height: 45px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	text-align: center;
-	line-height: 45px;
-	width: 33.33%;
+  background-color: #FF5722;
+  height: 45px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 45px;
+  width: 33.33%;
 }
 
 .floats__item::before {
-	content: "1";
-	font-size: 40px;
-	font-weight: bold;
+  content: "1";
+  font-size: 40px;
+  font-weight: bold;
 }
 
 
@@ -41,11 +41,11 @@ Second item
 ------------*/
 
 .floats__item:nth-child(2) {
-	background-color: #689F38;
+  background-color: #689F38;
 }
 
 .floats__item:nth-child(2)::before {
-	content: "2";
+  content: "2";
 }
 
 
@@ -54,11 +54,11 @@ Third item
 ------------*/
 
 .floats__item:nth-child(3) {
-	background-color: #0288D1;
+  background-color: #0288D1;
 }
 
 .floats__item:nth-child(3)::before {
-	content: "3";
+  content: "3";
 }
 
 
@@ -67,7 +67,7 @@ First section floats
 ------------*/
 
 .floats--123 .floats__item {
-	float: left;
+  float: left;
 }
 
 
@@ -76,11 +76,11 @@ First section floats
 ------------*/
 
 .floats--132 .floats__item {
-	float: left;
+  float: left;
 }
 
 .floats--132 .floats__item:nth-child(2) {
-	float: right;
+  float: right;
 }
 
 
@@ -89,7 +89,7 @@ First section floats
 ------------*/
 
 .floats--321 .floats__item {
-	float: right;
+  float: right;
 }
 
 
@@ -98,11 +98,11 @@ First section floats
 ------------*/
 
 .floats--231 .floats__item {
-	float: right;
+  float: right;
 }
 
 .floats--231 .floats__item:nth-child(2) {
-	float: left;
+  float: left;
 }
 
 
@@ -114,42 +114,42 @@ Bonus section
 /*----312----*/
 
 .floats--312 {
-	position: relative;
+  position: relative;
 }
 
 .floats--312 .floats__item {
-	float: left;
+  float: left;
 }
 
 .floats--312 .floats__item:nth-child(1) {
-	/* Make space for #3*/
-	margin-left: 33.33%;
+  /* Make space for #3*/
+  margin-left: 33.33%;
 }
 
 .floats--312 .floats__item:nth-child(3) {
-	position: absolute;
-	top: 0;
-	left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 
 /*---213---*/
 
 .floats--213 {
-	position: relative;
+  position: relative;
 }
 
 .floats--213 .floats__item {
-	float: right;
+  float: right;
 }
 
 .floats--213 .floats__item:nth-child(1) {
-	/* Make space for #3*/
-	margin-right: 33.33%;
+  /* Make space for #3*/
+  margin-right: 33.33%;
 }
 
 .floats--213 .floats__item:nth-child(3) {
-	position: absolute;
-	top: 0;
-	right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
