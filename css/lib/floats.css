@@ -13,9 +13,11 @@
 	background-color: #CFD8DC;
 }
 
+
 /*------------------------------
 Styles to make the divs viewable
 --------------------------------*/
+
 .floats__item {
 	background-color: #FF5722;
 	height: 45px;
@@ -25,35 +27,44 @@ Styles to make the divs viewable
 	line-height: 45px;
 	width: 33.33%;
 }
+
 .floats__item::before {
 	content: "1";
 	font-size: 40px;
 	font-weight: bold;
 }
 
+
 /*----------
 Second item
 ------------*/
+
 .floats__item:nth-child(2) {
 	background-color: #689F38;
 }
+
 .floats__item:nth-child(2)::before {
 	content: "2";
 }
 
+
 /*----------
 Third item
 ------------*/
+
 .floats__item:nth-child(3) {
 	background-color: #0288D1;
 }
+
 .floats__item:nth-child(3)::before {
 	content: "3";
 }
 
+
 /*----------
 First section floats
 ------------*/
+
 .floats--123 .floats__item {
 	/* todo: add float value to achieve the order: 123; */
 }
